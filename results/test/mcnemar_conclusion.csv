@@ -1,0 +1,5 @@
+arch,subset,sig_hier_better,sig_flat_better,verdict
+resnet50,all_1600,1/3,1/3,inconsistent across seeds
+resnet50,pair_800,2/3,0/3,inconsistent across seeds
+efficientnet_b0,all_1600,1/3,1/3,inconsistent across seeds
+efficientnet_b0,pair_800,1/3,0/3,inconsistent across seeds

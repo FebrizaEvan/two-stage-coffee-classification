@@ -1,0 +1,17 @@
+architecture,approach,true_class,pred_defect,pred_longberry,pred_peaberry,pred_premium
+ResNet-50,Flat,defect,828,112,31,229
+ResNet-50,Flat,longberry,3,1056,42,99
+ResNet-50,Flat,peaberry,11,0,946,243
+ResNet-50,Flat,premium,35,18,26,1121
+ResNet-50,Two-stage,defect,896,66,44,194
+ResNet-50,Two-stage,longberry,10,993,63,134
+ResNet-50,Two-stage,peaberry,12,0,1040,148
+ResNet-50,Two-stage,premium,46,28,38,1088
+EfficientNet-B0,Flat,defect,887,82,66,165
+EfficientNet-B0,Flat,longberry,4,1103,32,61
+EfficientNet-B0,Flat,peaberry,33,1,911,255
+EfficientNet-B0,Flat,premium,46,12,19,1123
+EfficientNet-B0,Two-stage,defect,883,90,66,161
+EfficientNet-B0,Two-stage,longberry,3,1081,36,80
+EfficientNet-B0,Two-stage,peaberry,29,0,992,179
+EfficientNet-B0,Two-stage,premium,64,17,24,1095
