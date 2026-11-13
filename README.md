@@ -17,6 +17,7 @@ The main experiment (notebooks 01–02) is complemented by a data audit (03), ex
 
 - **Dataset**: USK-Coffee, https://coffee.comvislab-usk.org/ (not included)
 - **Split**: fixed split of the dataset (1,200 / 400 / 400 images per class)
+- **Split manifest**: `results/audit/split_manifest.csv` lists every image by split and class with its MD5 hash, and `results/audit/original_comparison.csv` confirms that all 8,000 files match the original release
 
 ## Training Settings
 
@@ -57,7 +58,7 @@ Trained weights are not included. To reproduce the results from the saved predic
 ├── results/
 │   ├── main/             # Training histories, test results, and inference overhead of the main models
 │   ├── exploratory/      # Class weighting, control pair, no color jitter, and validation–test gap
-│   └── audit/            # Split check and duplicate search
+│   └── audit/            # Split manifest, comparison with the original release, and duplicate search
 └── requirements.txt
 ```
 
