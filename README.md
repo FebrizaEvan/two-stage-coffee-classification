@@ -52,8 +52,8 @@ Trained weights are not included. To reproduce the results from the saved predic
 ```
 ├── notebooks/            # Notebooks 01–08
 ├── predictions/
-│   ├── main/             # Test and validation predictions of the main models
-│   └── exploratory/      # Predictions of the class-weighted, control-pair, and no-color-jitter models
+│   ├── main/             # Test predictions of the main models
+│   └── exploratory/      # Predictions and training histories of the class-weighted, control-pair, and no-color-jitter models
 ├── results/
 │   ├── main/             # Training histories, test results, and inference overhead of the main models
 │   ├── exploratory/      # Class weighting, control pair, no color jitter, and validation–test gap
