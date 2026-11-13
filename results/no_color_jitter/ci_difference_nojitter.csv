@@ -1,0 +1,13 @@
+arch,comparison,subset,diff_seed0,diff_seed1,diff_seed2,mean_diff,ci_low,ci_high
+resnet50,hierarchical_nojitter - flat_nojitter,all_1600,-0.37,-4.0,-1.31,-1.9,-6.57,2.78
+resnet50,hierarchical_nojitter - flat_nojitter,pb_pr_800,-3.63,-1.62,-0.37,-1.87,-5.95,2.2
+resnet50,flat_nojitter - flat,all_1600,4.44,8.62,-5.06,2.67,-14.76,20.09
+resnet50,flat_nojitter - flat,pb_pr_800,3.75,1.88,-8.88,-1.08,-18.01,15.84
+resnet50,hierarchical_nojitter - hierarchical,all_1600,2.62,-2.5,-1.94,-0.6,-7.59,6.38
+resnet50,hierarchical_nojitter - hierarchical,pb_pr_800,-3.12,-4.62,-8.75,-5.5,-12.74,1.74
+efficientnet_b0,hierarchical_nojitter - flat_nojitter,all_1600,-3.0,-2.37,1.62,-1.25,-7.48,4.98
+efficientnet_b0,hierarchical_nojitter - flat_nojitter,pb_pr_800,-5.87,0.37,2.75,-0.92,-11.98,10.15
+efficientnet_b0,flat_nojitter - flat,all_1600,6.56,2.31,2.06,3.65,-2.64,9.93
+efficientnet_b0,flat_nojitter - flat,pb_pr_800,9.88,1.0,1.63,4.17,-8.14,16.47
+efficientnet_b0,hierarchical_nojitter - hierarchical,all_1600,1.87,-2.37,6.0,1.83,-8.57,12.24
+efficientnet_b0,hierarchical_nojitter - hierarchical,pb_pr_800,-0.25,-0.88,4.25,1.04,-5.9,7.99

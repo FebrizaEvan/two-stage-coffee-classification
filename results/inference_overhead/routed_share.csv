@@ -1,0 +1,7 @@
+arch,seed,routed_share
+resnet50,0,0.570625
+resnet50,1,0.558125
+resnet50,2,0.589375
+efficientnet_b0,0,0.56375
+efficientnet_b0,1,0.540625
+efficientnet_b0,2,0.54125

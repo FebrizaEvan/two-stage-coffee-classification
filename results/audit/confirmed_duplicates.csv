@@ -1,0 +1,2 @@
+split_pair,query_image,ref_image,same_class
+train-test,test/peaberry/1916.jpg,train/peaberry/14.jpg,True

@@ -1,0 +1,7 @@
+arch,seed,epochs_run,best_epoch,best_val_loss,val_acc_at_best,train_minutes,status
+resnet50,0,11,6,0.1426,0.955,12.4,done
+efficientnet_b0,0,11,6,0.1625,0.9506,9.9,done
+resnet50,1,17,12,0.1639,0.9594,19.4,done
+efficientnet_b0,1,18,13,0.1889,0.9419,16.7,done
+resnet50,2,13,8,0.1017,0.9619,15.1,done
+efficientnet_b0,2,13,8,0.1737,0.9375,11.7,done

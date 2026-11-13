@@ -1,0 +1,9 @@
+arch,model,subset,diff_seed0,diff_seed1,diff_seed2,mean_diff,ci_low,ci_high
+resnet50,hierarchical,all_1600,1.44,7.12,-4.44,1.37,-12.99,15.74
+resnet50,hierarchical_control,all_1600,2.38,5.56,-3.19,1.58,-9.42,12.58
+resnet50,hierarchical,pb_pr_800,3.25,4.87,-0.5,2.54,-4.31,9.39
+resnet50,hierarchical_control,pb_lb_800,-2.12,13.0,-4.37,2.17,-21.31,25.64
+efficientnet_b0,hierarchical,all_1600,1.69,2.31,-2.31,0.56,-5.67,6.8
+efficientnet_b0,hierarchical_control,all_1600,-1.31,-1.81,-4.69,-2.6,-7.13,1.92
+efficientnet_b0,hierarchical,pb_pr_800,4.25,2.25,0.13,2.21,-2.92,7.33
+efficientnet_b0,hierarchical_control,pb_lb_800,0.5,-1.75,-3.37,-1.54,-6.38,3.29

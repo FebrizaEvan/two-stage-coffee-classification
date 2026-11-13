@@ -1,0 +1,19 @@
+{
+  "total_images": 8000,
+  "counts_match_published_split": true,
+  "original_release_check": "identical",
+  "original_release_status": {
+    "match": 8000
+  },
+  "exact_duplicates_across_splits": 0,
+  "exact_duplicates_conflicting_class": 0,
+  "phash_candidates": {
+    "train-test": 119937,
+    "train-val": 114563,
+    "test-val": 41056
+  },
+  "embedding_pairs_inspected_per_split_pair": 50,
+  "confirmed_duplicates_across_splits": {
+    "train-test": 1
+  }
+}

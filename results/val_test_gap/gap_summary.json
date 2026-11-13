@@ -1,0 +1,31 @@
+{
+  "nn_cosine_median": {
+    "val": 0.949631929397583,
+    "test": 0.954487144947052
+  },
+  "p_val_closer_to_train": 0.42773359375,
+  "knn_accuracy": {
+    "val": 0.70375,
+    "test": 0.699375
+  },
+  "split_classifier_auc": {
+    "train vs val": 0.8016,
+    "train vs test": 0.8928,
+    "val vs test": 0.7263
+  },
+  "largest_color_d_val_vs_test": {
+    "red": 0.168,
+    "green": 0.052,
+    "blue": 0.042,
+    "brightness": 0.076,
+    "contrast": 0.066,
+    "saturation": 0.297
+  },
+  "recall_gap_mean_over_models": {
+    "defect": 0.1671,
+    "longberry": 0.0879,
+    "peaberry": 0.1562,
+    "premium": 0.0379,
+    "all": 0.1123
+  }
+}

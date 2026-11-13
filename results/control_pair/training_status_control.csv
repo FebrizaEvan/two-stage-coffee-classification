@@ -1,0 +1,13 @@
+arch,scheme,seed,epochs_run,best_epoch,best_val_loss,val_acc_at_best,train_minutes,status
+resnet50,3class_ctrl,0,11,6,0.1496,0.9456,13.2,done
+resnet50,2class_ctrl,0,20,15,0.0207,0.9938,13.0,done
+efficientnet_b0,3class_ctrl,0,22,17,0.1525,0.9519,20.2,done
+efficientnet_b0,2class_ctrl,0,8,3,0.0089,0.9988,3.8,done
+resnet50,3class_ctrl,1,10,5,0.1643,0.9469,12.2,done
+resnet50,2class_ctrl,1,8,3,0.0421,0.9875,5.3,done
+efficientnet_b0,3class_ctrl,1,15,10,0.1568,0.945,14.1,done
+efficientnet_b0,2class_ctrl,1,8,3,0.0159,0.995,3.8,done
+resnet50,3class_ctrl,2,13,8,0.1155,0.9625,15.9,done
+resnet50,2class_ctrl,2,10,5,0.023,0.9925,6.9,done
+efficientnet_b0,3class_ctrl,2,21,16,0.1495,0.95,20.0,done
+efficientnet_b0,2class_ctrl,2,10,5,0.0215,0.995,5.0,done
